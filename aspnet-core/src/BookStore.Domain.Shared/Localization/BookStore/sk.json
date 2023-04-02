@@ -31,6 +31,7 @@
     "Permission:Books": "Správa kníh",
     "Permission:Books.Create": "Pridať novú knihu",
     "Permission:Books.Edit": "Upraviť knihu",
-    "Permission:Books.Delete": "Vymazať knihu"
+    "Permission:Books.Delete": "Vymazať knihu",
+    "BookStore:00001": "Autor s rovnakým menom \"{name}\" už existuje."
   }
 }
