@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BookStore.Books;
+using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -55,8 +56,9 @@ public class BookStoreDbContext :
     public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options)
         : base(options)
     {
-
     }
+
+    public DbSet<Book> Books { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
