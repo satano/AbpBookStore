@@ -1,8 +1,31 @@
 {
-  "culture": "sk",
-  "texts": {
+  "Culture": "sk",
+  "Texts": {
     "Menu:Home": "Domov",
     "Welcome": "Vitajte",
-    "LongWelcomeMessage": "Vitajte v aplikácii. Toto je štartovací projekt založený na ABP frameworku. Viac informácií nájdete na stránke abp.io."
+    "LongWelcomeMessage": "Vitajte v aplikácii. Toto je počiatočný projekt vytvorený pomoocu ABP frameworku. Ak chcete vedieť viac, navštívte stránku https://abp.io.",
+    "Menu:BookStore": "Kníhkupectvo",
+    "Menu:Books": "Knihy",
+    "Actions": "Akcie",
+    "Close": "Zatvor",
+    "Delete": "Vymaž",
+    "Edit": "Uprav",
+    "PublishDate": "Dátum publikovania",
+    "NewBook": "Nová kniha",
+    "Name": "Názov",
+    "Type": "Typ",
+    "Price": "Cena",
+    "CreationTime": "Dátum vytvorenia",
+    "AreYouSure": "Ste si istá?",
+    "AreYouSureToDelete": "Ste si istá, že chcete túto položku vymazať?",
+    "Enum:BookType.0": "Nedefinovaný",
+    "Enum:BookType.1": "Dobrodružná",
+    "Enum:BookType.2": "Životopisná",
+    "Enum:BookType.3": "Dystopia",
+    "Enum:BookType.4": "Fantasy",
+    "Enum:BookType.5": "Horor",
+    "Enum:BookType.6": "Vedecká",
+    "Enum:BookType.7": "Sci-fi",
+    "Enum:BookType.8": "Poézia"
   }
 }
